@@ -22,7 +22,7 @@ use Slim\Interfaces\RouterInterface;
 
 class HomeController
 {
-	protected $container, $router, $view, $flash;
+	protected $container, $router, $view;
 
 	public function __construct(ContainerInterface $c, RouterInterface $router, Twig $view){
 		$this->container = $c;
